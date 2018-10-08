@@ -21,12 +21,12 @@ class Select extends Component {
 
 	render() {
 		return (
-			<div class="form-group">
-				<label for="board-select">Choose your board:</label>
+			<div className="form-group">
+				<label htmlFor="board-select">Choose your board:</label>
 				<select
 					value={this.state.value}
 					onChange={this.handleChange}
-					class="form-control"
+					className="form-control"
 					id="board-select">
 					<option value="Football">Football</option>
 					<option value="Basketball">Basketball</option>
