@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
 import * as firebase from 'firebase';
 
-const config = {
-	apiKey: 'AIzaSyANRwiqwbNnLT-2chBMikZ8g64febUJ6VI',
-	authDomain: 'bored-718b1.firebaseapp.com',
-	databaseURL: 'https://bored-718b1.firebaseio.com',
-	projectId: 'bored-718b1',
-	storageBucket: 'bored-718b1.appspot.com',
-	messagingSenderId: '1073064848250'
-};
-
 class Submit extends Component {
 	constructor(props) {
 		super(props);
