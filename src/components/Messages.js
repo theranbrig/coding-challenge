@@ -6,11 +6,11 @@ export default class Home extends Component {
 	render() {
 		return (
 			<div className="container">
+				<Select selectBoard={this.props.selectBoard} />
 				<p>
-					<Select selectBoard={this.props.selectBoard} />
 					Logged in as: <strong>{this.props.user}</strong>
-					<Submit user={this.props.user} board={this.props.board} />
 				</p>
+				<Submit user={this.props.user} board={this.props.board} />
 			</div>
 		);
 	}

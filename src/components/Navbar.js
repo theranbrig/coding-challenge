@@ -1,6 +1,5 @@
 import User from './User';
 import React from 'react';
-import { BrowserRouter as Link } from 'react-router-dom';
 
 const Navbar = props => (
 	<nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
