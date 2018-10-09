@@ -20,8 +20,15 @@ Finally all tests are built using the React Testing Library and check for render
 * Firebase
 * react-testing-library
 
-## Install
+## Improvements
 
+Here are some ways that I would make it better given more time to fine tune thngs.
+* Add your own message board topic, rather than just the five that are built in.
+* More interesting home page, logo, styling.
+* Edit and delete message buttons.
+* Reply to comments, rather than to just the message board as a whole.
+
+## Install
 
 Download and install dependencies.
 
@@ -36,9 +43,9 @@ npm start
 
 Theran Brigowatz is a Full-stack Web Developer currently out of Seoul, South Korea, but transitioning back to the US.  Check him out at the following:
 
-* [theran.co](www.theran.co)
+* [theran.co](https://www.theran.co)
 * theran.brigowatz@gmail.com
-* [twitter.com/wellBuilt](www.twitter.com/wellBuilt)
-* [github.com/theranbrig](www.github.com/theranbrig)
+* [twitter.com/wellBuilt](https://www.twitter.com/wellBuilt)
+* [github.com/theranbrig](https://www.github.com/theranbrig)
 
 > Made with love and coffee.

@@ -4,7 +4,7 @@ class Select extends Component {
 	constructor() {
 		super();
 		this.state = {
-			value: 'football'
+			value: 'Football'
 		};
 		this.handleSubmit = this.handleSubmit.bind(this);
 		this.handleChange = this.handleChange.bind(this);
@@ -14,7 +14,6 @@ class Select extends Component {
 		this.setState({ value: e.target.value });
 	}
 	handleSubmit(e) {
-		console.log(this.state.value);
 		e.preventDefault(e);
 		this.props.selectBoard(this.state.value);
 	}

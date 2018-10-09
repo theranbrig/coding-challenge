@@ -38,10 +38,6 @@ class Submit extends Component {
 		this.getMessages();
 	}
 
-	// componentDidMount() {
-	// 	this.getMessages();
-	// }
-
 	componentDidUpdate(prevProps, prevState) {
 		if (prevProps !== this.props) {
 			this.getMessages();
@@ -62,11 +58,9 @@ class Submit extends Component {
 						text: message.val().text
 					});
 				});
-				console.log(messages);
 				this.setState({
 					roomMessages: messages.filter(message => message.board === this.props.board)
 				});
-				console.log(this.state.roomMessages);
 			});
 	}
 
