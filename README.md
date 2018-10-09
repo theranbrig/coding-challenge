@@ -23,10 +23,10 @@ Finally all tests are built using the React Testing Library and check for render
 ## Improvements
 
 Here are some ways that I would make it better given more time to fine tune thngs.
-* Add your own message board topic, rather than just the five that are built in.
-* More interesting home page, logo, styling.
-* Edit and delete message buttons.
-* Reply to comments, rather than to just the message board as a whole.
+* Add your own message board topic, rather than just the five that are built in
+* More interesting home page, logo, and general styling
+* Edit and delete message buttons for users
+* Reply to comments, rather than to just the message board as a whole
 
 ## Install
 
@@ -48,4 +48,4 @@ Theran Brigowatz is a Full-stack Web Developer currently out of Seoul, South Kor
 * [twitter.com/wellBuilt](https://www.twitter.com/wellBuilt)
 * [github.com/theranbrig](https://www.github.com/theranbrig)
 
-> Made with love and coffee.
+> Made with :heart: and :coffee:.
