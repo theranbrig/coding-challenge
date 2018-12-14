@@ -44,7 +44,7 @@ npm start
 Theran Brigowatz is a Full-stack Web Developer currently out of Seoul, South Korea, but transitioning back to the US.  Check him out at the following:
 
 * [theran.co](https://www.theran.co)
-* theran.brigowatz@gmail.com
+* Email me @ theran.brigowatz@gmail.com
 * [twitter.com/wellBuilt](https://www.twitter.com/wellBuilt)
 * [github.com/theranbrig](https://www.github.com/theranbrig)
 
