@@ -29,6 +29,7 @@ class App extends React.Component {
 		this.changeBoard = this.changeBoard.bind(this);
 	}
 
+	// User Actions
 	signIn() {
 		const provider = new firebase.auth.GoogleAuthProvider();
 		firebase
