@@ -70,14 +70,18 @@ class Submit extends Component {
 				<div>
 					<h1 className="title">{this.props.board} Message Board</h1>
 					<ul className="list-group-flush">
-						{this.state.roomMessages.map(message => (
-							<li className="list-group-item list-group-item-primary message">
-								<p>{message.text}</p>
-								<p>
-									<strong>{message.user}</strong>
-								</p>
-							</li>
-						))}
+						{this.state.roomMessages.map(message => {
+							return (
+								<li
+									key={message.message}
+									className="list-group-item list-group-item-primary message">
+									<p>{message.text}</p>
+									<p>
+										<strong>{message.user}</strong>
+									</p>
+								</li>
+							);
+						})}
 					</ul>
 				</div>
 				<form>
